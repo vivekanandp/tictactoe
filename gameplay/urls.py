@@ -1,5 +1,4 @@
 from django.conf.urls import url
-from django.contrib.auth.views import LoginView, LogoutView
 
 from .views import game_detail, make_move
 

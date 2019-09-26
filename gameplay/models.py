@@ -1,8 +1,8 @@
+from django.contrib.auth.models import User
+from django.core.validators import MinValueValidator, MaxValueValidator
 from django.db import models
 from django.db.models import Q
-from django.contrib.auth.models import User
 from django.urls import reverse
-from django.core.validators import MinValueValidator, MaxValueValidator
 
 GAME_STATUS_CHOICES = (
     ('F', 'First Player To Move'),
